@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(9, 108, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.weather-container{
+    background-color: rgb(41, 121, 234);
+    
+    height: 300px;
+    width: 400px;
+    text-align:center;
+    margin: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+   border-radius: 10px;
+   
+}
+
+#location{
+  margin: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  border-style: none;
+  outline: none;
+}
+
+button{
+    font-size: 19px;
+    color:white;
+    background-color: orange;
+    border-radius: 5px;
+    border-style: none;
+}
+
+#weatherInfo{
+    margin: 15px;
+}
